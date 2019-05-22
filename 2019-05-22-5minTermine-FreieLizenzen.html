@@ -1,19 +1,5 @@
 <!doctype html>
 
-<!-- 
-Willkommen. In diesen Kommentaren erkläre ich Dir ein bißchen den Code, 
-so dass Du einfach eine eigene Präsentation gestalten kannst.
-Um den ganzen ersten Bereich musst Du Dich fast gar nicht kümmern. Nichts davon taucht als Inhalt in Deiner Präsentation auf.
-Stattdessen wird festgelegt, wie die Präsentation funktionieren wird.
-Was Du tun solltest:
-1. Für Suchmaschinen und Nutzende ist es hilfreich, wenn Du den Titel, Deinen Namen und eine Beschreibung angibst.
-(Der Titel wird ganz oben im Browser sichtbar sein, damit Nutzende wissen, wo im Internet sie sich gerade befinden.)
-2. Und dann solltest Du Dir noch diese Zeile ansehen:
-<link rel="stylesheet" href="css/theme/black.css" id="theme">
-Anstelle von black, kannst Du auch white, simple, blood, night, moon ... setzen. Beispiele sind in der Präsentation verlinkt. 
-Danach kannst Du runterscrollen bis zum nächsten ausführlichen Kommentar.  
--->
-
 <html lang="de">
 
 	<head>
@@ -21,8 +7,8 @@ Danach kannst Du runterscrollen bis zum nächsten ausführlichen Kommentar.
 
 		<title>5-Minuten-Termine :: CC-Lizenzen - The Good, the bad and the ugly</title>
 
-		<meta name="description" content="Erstellt mit RevealJS und gedacht zum Nachbasteln">
-		<meta name="author" content="Nele Hirsch">
+		<meta name="description" content="Warum nicht alle CC-Lizenzen wirklich offen sind">
+		<meta name="author" content="Anja Lorenz">
 
 		<meta name="apple-mobile-web-app-capable" content="yes">
 		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -30,6 +16,8 @@ Danach kannst Du runterscrollen bis zum nächsten ausführlichen Kommentar.
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 		<link rel="stylesheet" href="css/reveal.css">
+		
+		<!-- TODO: Theme black, white, simple, blood, night, moon, league, solarized, serif, beige, sky -->
 		<link rel="stylesheet" href="css/theme/black.css" id="theme">
 
 		<!-- Theme used for syntax highlighting of code -->
@@ -63,121 +51,114 @@ Danach wird das Slide mit </section> beendet.
 -->
 			<div class="slides">
 				<section>
-					<h1>Willkommen</h1>
-					<h3>Das ist meine Beispielspräsentation.</h3>
-					<p>
-						<small>Erstellt von Nele | <a href="https://eBildungslabor.de">eBildungslabor</a></small>
+					<h1>CC-Lizenzen</h1>
+					<h3>The good, <br/> The <del><font color="#555">bad</font></del> maybe not so good,<br/> and the <del><font color="#555">ugly</font></del> c&p licences.</h3>
+					<p style="font-size:70%">
+						<a href="https://twitter.com/anjalorenz">@anjalorenz</a> | 22.05.2019 <a href="https://chaotikum.org/blog/2019/05/17/5-min-termine5/">5-Minuten-Termine</a>
+					</p>
+					<p style="font-size:50%">
+						<br/><br/>Soweit gesetzlich möglich, wird auf alle Urheberrechte und verwandten Schutzrechte verzichtet. Auf Ausnahmen wird bei den verwendeten Werken hingewiesen.<br/>
+						<a rel="license" href="https://creativecommons.org/publicdomain/zero/1.0/deed.de"><img alt="Creative Commons Lizenzvertrag" style="border-width:0" src="https://licensebuttons.net/l/zero/1.0/88x31.png" /></a>
 					</p>
 						
-						<aside class="notes">
+						<!--<aside class="notes">
 	Hier steht Text, der für die vortragenden Person wichtig ist, aber nicht direkt in der Präsentation nicht auftaucht.
-</aside>
+</aside>-->
 					
 				</section>
 <!-- Wenn Du zweimal <section> schreibst, kannst Du Slides 'nach unten' setzen. 
 -->
 				<section>
 					<section>
-						<h2>Slides nach rechts und nach unten</h2>
-						<p>Diese Funktion ist cool z.B. für Tutorials.</p>
+						<img src="https://wiki.chaotikum.org/_media/projekte:5minutentermine-01.png"  style="border-width:0"/>
+						<p>Lizenz: <a href="https://chaotikum.org">Chaotikum.org</a>, (<a href="https://creativecommons.org/licenses/by-nc/4.0/de/">CC BY-NC 4.0</a>)<br/><img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc.eu.png" height="50px" style="border-width:0"/></p>
 						
 					</section>
 				
 					<section>
-						<h2>Unteres Slide</h2>
-						<p>Jetzt kannst Du wieder nach oben gehen.</p>
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/0lYppvmLVeQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						<p>5-Minuten-Termine auf YouTube<br/>Lizenz: <a href="https://chaotikum.org">Chaotikum.org</a>, (<a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a>)<br/><img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-nd.eu.png" height="50px" style="border-width:0"/></p>
 						
+					</section>
+					<section id="fragments">
+						<p style="font-size:350%">CC <span class="fragment">???</span></p>
 					</section>
 				</section>
 <!-- Wenn Du zweimal <section id="fragments"> schreibst, kannst Du Text bzw. Inhalte Schritt für Schritt aufbauen. 
 -->
 	
 				<section>
+					<section>
+						<p><a href="https://creativecommons.org/"><img src="https://mirrors.creativecommons.org/presskit/logos/cc.logo.large.png" height="150px" style="border-width:20pt; background-color:white;"/></a></p>
+						<p><small>Standardlizenzverträge seit 2001, aktuell v4.0 (außer CC0)</small></p>
+					</section>
 					<section id="fragments">
-						<h2>Schritt für Schritt</h2>
-						<p>Erster Punkt</p>
-						<p class="fragment">... noch ein Punkt ...</p>
-						<p class="fragment">... und der letzte Punkt</p>
+						<h1>Lizenzen</h1>
+						<h2>The good</h2>
+						<p style="font-size:120%">
+							<span class="fragment"><a href="https://creativecommons.org/licenses/by/4.0/deed.de"><img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by.png" style="border-width:0pt;" height="100px" /></a>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+							<span class="fragment"><a href="https://creativecommons.org/licenses/by-sa/4.0/deed.de"><img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-sa.png" style="border-width:0pt;" height="100px"/></a>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+							<span class="fragment"><a href="https://creativecommons.org/publicdomain/zero/1.0/deed.de" style="border-width:0pt;" height="100px"/><img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/cc-zero.png" style="border-width:0pt;" height="100px"/></a></span>
+						</p>
 					</section>
+					<section id="fragments">
+						<h1>Lizenzen</h1>
+						<h2>The <del><font color="#555">bad</font></del> maybe not so good</h2>
+						<p style="font-size:120%">
+							<span class="fragment"><a href="https://creativecommons.org/licenses/by-nd/4.0/deed.de"><img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nd.png" style="border-width:0pt;" height="100px" /></a>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+							<span class="fragment"><a href="https://creativecommons.org/licenses/by-nc/4.0/deed.de"><img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc.eu.png" style="border-width:0pt;" height="100px" /></a>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+						</p>
+						<p style="font-size:120%" class="fragment">
+							<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de"><img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-sa.eu.png" style="border-width:0pt;" height="100px" /></a>
+						</p>
 					</section>
-
-				<section>
-						<section id="fragments">
-						<h2>Viele Darstellungsmöglichkeiten</h2>
-				
-						<p class="fragment grow">vergrößern</p>
-						<p class="fragment shrink">verkleinern</p>
-						<p class="fragment fade-out">ausblenden</p>
-					
-						<p class="fragment fade-in-then-out">einblenden und ausblenden</p>
-						<p class="fragment fade-in-then-semi-out">einblenden und halb ausblenden</p>
-						<p>Mit Farben markieren:<span class="fragment highlight-red">rot</span> <span class="fragment highlight-blue">blau</span> <span class="fragment highlight-green">grün</span></p>
+					<section>
+						<h1>Lizenzen</h1>
+						<h2>The <del><font color="#555">ugly</font></del> c&p licences</h2>
+						<p style="font-size:120%">
+							<a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.de"><img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-nd.eu.png" style="border-width:0pt;" height="100px" /></a>
+						</p>
 					</section>
-				</section>				
-
-				
-				<section id="themes">
-					<h2>Layout</h2>
-					<p>
-		Das Design kannst Du im Kopf des Dokuments festlegen. Hier ist eine Vorschau.<br>
-						<!-- Hacks to swap themes after the page has loaded. Not flexible and only intended for the reveal.js demo deck. -->
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/black.css'); return false;">Black (default)</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/white.css'); return false;">White</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/league.css'); return false;">League</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/sky.css'); return false;">Sky</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/beige.css'); return false;">Beige</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/simple.css'); return false;">Simple</a> <br>
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/serif.css'); return false;">Serif</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/blood.css'); return false;">Blood</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/night.css'); return false;">Night</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/moon.css'); return false;">Moon</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/solarized.css'); return false;">Solarized</a>
-					</p>
-</section>
-				
-
-<!-- Wenn Du nicht nur <section> schreibst, um ein Slide zu beginnen, 
-sondern <section data background="..."> kannst Du Farbe, Bilder, Gifs oder Videos als Hintergrund setzen.
--->
-				
-					<section data-background="#2100ff">
-						<h2>Slides mit farbigem Hintergrund</h2>
-						
-					</section>
-					<section data-background="https://www.oercamp.de/wp-content/uploads/2017/12/OERde17-OERCamp-Tilman-Vogler-Tag-2-053_web.jpg">
-						<h2>Slides mit Bild als Hintergrund</h2>
-						
-					</section>
-					
-			
-					<section data-background="https://media.giphy.com/media/l2Je3ktsieOfOGa1G/giphy.gif">
-						<h2>Slides mit Gif als Hintergrund</h2>
-					</section>
-				
-				
-				
-				<section>
-					<h2>Überblick oder kurze Pause?</h2>
-					
-     
-					<p>Drücke auf Esc oder B. Und mit Klick auf S bekommst Du eine Speakers-Ansicht</p>
-					
-					<aside class="notes">
-	Hier steht Text, der für die vortragenden Person wichtig ist, aber nicht direkt in der Präsentation nicht auftaucht.
-</aside>
 				</section>
-
-			
 				<section>
-					<h1>JETZT bist Du dran!</h1>
-					<p>
-						👉 <a href="https://github.com/eBildungslabor/slides/blob/master/README.md">Lies Dir die Schritt für Schritt Anleitung durch.</a> <br>
-					</p>
+					<section data-background="https://media.giphy.com/media/a5viI92PAF89q/giphy.gif">
+						<h1>Not so good?</h2>
+						<p style="font-size:50%">Bildquelle: <a href="https://giphy.com/gifs/reaction-a5viI92PAF89q">Giphy</a>, Lizenz: <a href="https://support.giphy.com/hc/en-us/articles/360020287091-GIPHY-DMCA-Copyright-Policy">GIPHY DMCA Copyright Policy</a></p>
+					</section>
+					<section>
+						<p><a href="https://open-educational-resources.de/"><img src="https://open-educational-resources.de/wp-content/uploads/OER_Banner_CC0.png" style="border-width:20pt; background-color:white;"/></a></p>
+					</section>
+					<section id="fragments">
+						<p>"Wissen ist offen, wenn <span class="fragment highlight-red">jedeR</span> darauf frei zugreifen, es nutzen, <span class="fragment highlight-red">verändern</span> und teilen kann – eingeschränkt höchstens durch Maßnahmen, die Ursprung und Offenheit des Wissens bewahren."</p>
+						<p style="font-size:60%">Quelle: <a href="http://opendefinition.org/od/2.1/de/">Open Definition</a></p>
+					</section>
+					<section id="fragments">
+						<h1>ND</h1>
+						<p><a href="https://creativecommons.org/licenses/by-nd/4.0/deed.de"><img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nd.png" style="border-width:0pt;" height="100px" /></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de"><img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-sa.eu.png" style="border-width:0pt;" height="100px" /></a></p>
+						<h2>Keine Bearbeitungen</h2>
+						<p class="fragment">Damit auch keine <a href="https://twitter.com/search?f=tweets&vertical=default&q=%23zeitgem%C3%A4%C3%9Febildung&src=typd">#zeitgemaesseBildung</a> nach den <a href="https://de.wikipedia.org/wiki/4K-Modell_des_Lernens">4K</a><br/><small>Kommunikation, Kollaboration, Kreativität & kritisches Denken</small></p>
+					</section>
+					<section id="fragments">
+						<h1>NC</h1>
+						<p><a href="https://creativecommons.org/licenses/by-nc/4.0/deed.de"><img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc.eu.png" style="border-width:0pt;" height="100px" /></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de"><img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-sa.eu.png" style="border-width:0pt;" height="100px" /></a></p>
+						<h2>Nicht kommerziell</h2>
+						<p class="fragment">schwierig bspw. für VHSen, private Bildungsanbieter, selbstständige Trainerinnen und Trainer etc.<br/><small>Leider gibt es kein <a href="https://de.wikipedia.org/wiki/Fair_Use">Fair-Use</a> in Deutschland.</small></p>
+					</section>
+				</section>
+				<section>
+					<h1>Und nun?</h2>
+					<ul>
+						<li>Lizenzen überdenken</li>
+						<li>bewusste Entscheidungen treffen</li>
+					</ul>
+				</section>
+				<section data-background="https://media.giphy.com/media/BnhIfw9hBDlLi/giphy.gif">
+					<h1>I don't judge you by your license ;)</h1>
+					<p style="font-size:50%">Bildquelle: <a href="https://giphy.com/gifs/harry-potter-hug-draco-malfoy-BnhIfw9hBDlLi">Giphy</a>, Lizenz: <a href="https://support.giphy.com/hc/en-us/articles/360020287091-GIPHY-DMCA-Copyright-Policy">GIPHY DMCA Copyright Policy</a></p>
 				</section>
 
 				
 <!-- 
-Jeztzt sind wir fertig mit den Slides.
 Abschließend folgen noch einige Einstellungen. 
 Insbesondere kannst Du bei 'transition' festlegen, wie der Übergang zwischen Slides gestaltet sein soll.   
 -->
@@ -196,7 +177,7 @@ Insbesondere kannst Du bei 'transition' festlegen, wie der Übergang zwischen Sl
 				progress: true,
 				history: true,
 				center: true,
-				transition: 'zoom', // none/fade/slide/convex/concave/zoom
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
 				// More info https://github.com/hakimel/reveal.js#dependencies
 				dependencies: [
 					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
