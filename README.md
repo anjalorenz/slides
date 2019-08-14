@@ -4,6 +4,8 @@ Auf dieser Seite findest Du einige Slides von meinen Vorträgen. Eine komplette 
 
 Die Slides, die Du hier findest, sind mit [RevealJS](https://github.com/hakimel/reveal.js) umgesetzt. Wie man das (auch als Nicht-Nerd) komfortabel nutzen kann, erklärt [Nele Hirsch](https://twitter.com/ebildungslabor) auf ihrem [Blog eBildungslabor](https://ebildungslabor.de/blog/revealjs/) Schritt für Schritt.
 
+## Liste der Vorträge (potentiell unvollständig)
+* 22.05.2019: [CC-Lizenzen: The good, the maybe not so good, and the c&p licences](https://anjalorenz.github.io/slides/2019-05-22-5minTermine-FreieLizenzen.html), Kurzvortrag bei den 5-Minuten-Terminen im [nbsp;](https://chaotikum.org/blog/) Lübeck.
 ---
 
 ## Lizenz
